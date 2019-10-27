@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fdbapps.gontobbo.activities.SpotDetailsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgPlace"
+            android:src="@drawable/spot_tajhat_palace"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tajhat Palace, Tajhat, Bangladesh is a historical place of Bangladesh. This palace now holds the Rangpur Museam. Tajhat palace is situated three km. south east of the city of rangpur, on the outskirts of town."
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <Button
+            android:id="@+id/btnShowRoute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Route"/>
+
+        <Button
+            android:id="@+id/btnNearestHotels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nearest Hotels"/>
+
+        <Button
+            android:id="@+id/btnNearestHospitals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nearest Hospitals"/>
+
+        <Button
+            android:id="@+id/btnEmergencyContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contacts"/>
+    </LinearLayout>
+
+
+</ScrollView>

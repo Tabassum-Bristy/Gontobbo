@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivSpot"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tvSpotName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tajhat Palace"
+                android:textSize="19sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tvSpotLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tajhat, Rangpur."
+                android:textSize="18sp"
+                android:paddingTop="1dp"
+                android:paddingLeft="5dp"/>
+
+        </LinearLayout>
+</LinearLayout>
